@@ -1,0 +1,17 @@
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Iwenli.WeiXin.Robot.Test.exe
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Iwenli.WeiXin.Robot.Test.pdb
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.Form1.resources
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.Properties.Resources.resources
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.csproj.GenerateResource.Cache
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.exe
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.pdb
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Iwenli.WeiXin.Robot.Test.exe.config
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Newtonsoft.Json.dll
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\obj\x86\Debug\Iwenli.WeiXin.Robot.Test.csprojResolveAssemblyReference.cache
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Iwenli.WeiXin.Robot.dll
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Iwenli.WeiXin.Robot.pdb
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\Newtonsoft.Json.xml
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\FSLib.Network.dll
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\FSLib.Extension.dll
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\FSLib.Network.xml
+E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot.Test\bin\Debug\FSLib.Extension.xml

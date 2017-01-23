@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\jsonZhang\Desktop\wx</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/FSLib.Extension.dll">
+      <publishTime>09/02/2016 04:00:52</publishTime>
+    </File>
+    <File Include="bin/FSLib.Network.dll">
+      <publishTime>09/19/2016 01:18:06</publishTime>
+    </File>
+    <File Include="bin/Iwenli.WeiXin.Robot.dll">
+      <publishTime>01/23/2017 08:14:46</publishTime>
+    </File>
+    <File Include="bin/Iwenli.WeiXin.Robot.Web.dll">
+      <publishTime>01/23/2017 08:14:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/13/2016 23:06:14</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/22/2017 13:27:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/23/2017 08:14:47</publishTime>
+    </File>
+    <File Include="web/css/base.css">
+      <publishTime>01/20/2017 15:12:53</publishTime>
+    </File>
+    <File Include="web/index.html">
+      <publishTime>01/20/2017 15:13:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

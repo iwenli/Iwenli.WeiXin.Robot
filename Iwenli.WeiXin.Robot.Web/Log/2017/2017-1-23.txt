@@ -1,0 +1,73 @@
+[2017-01-23 08:39:31]  开始获取素材
+[2017-01-23 08:39:31]  【请求access_token成功】：access_token=Ky4x-rjVA4J2Y-xlbmkrG4Pmk0dyp2Mx3V1ZKAVRGj2rdPwEBSsYbMmZd8Vnw6vrRT5BCG2Tev4gQDqTlTRg8X3IU2gjc-plGv4UFQuozkesvB9amzBYadPzTJoIOrV4CWShAJAPJF
+[2017-01-23 08:39:31]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=Ky4x-rjVA4J2Y-xlbmkrG4Pmk0dyp2Mx3V1ZKAVRGj2rdPwEBSsYbMmZd8Vnw6vrRT5BCG2Tev4gQDqTlTRg8X3IU2gjc-plGv4UFQuozkesvB9amzBYadPzTJoIOrV4CWShAJAPJF&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:39:31]  【获取临时素材成功】
+[2017-01-23 08:39:32]  【百度access_token成功】：access_token=24.0b1aff6daf4ceb575603dcc88423622a.2592000.1487723970.282335-9205973
+[2017-01-23 08:39:32]  调用百度语言转换失败。
+[2017-01-23 08:39:48]  开始获取素材
+[2017-01-23 08:39:48]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=Ky4x-rjVA4J2Y-xlbmkrG4Pmk0dyp2Mx3V1ZKAVRGj2rdPwEBSsYbMmZd8Vnw6vrRT5BCG2Tev4gQDqTlTRg8X3IU2gjc-plGv4UFQuozkesvB9amzBYadPzTJoIOrV4CWShAJAPJF&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:39:49]  【获取临时素材成功】
+[2017-01-23 08:40:11]  调用百度语言转换失败。
+[2017-01-23 08:42:26]  开始获取素材
+[2017-01-23 08:42:26]  【请求access_token成功】：access_token=BpykYiFGynvqOWdbLTD0M9Kyg_ezHwmMmi41SHXSgrpqz99rfu4YL2Agto9Q9eUujhAz1i6n28wZYBf2CqBUAMlzfVyU4V_1FBiZ9LApYWCKDD2to-HVhfTqCWVxy5i4XICbAAAFQK
+[2017-01-23 08:42:26]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=BpykYiFGynvqOWdbLTD0M9Kyg_ezHwmMmi41SHXSgrpqz99rfu4YL2Agto9Q9eUujhAz1i6n28wZYBf2CqBUAMlzfVyU4V_1FBiZ9LApYWCKDD2to-HVhfTqCWVxy5i4XICbAAAFQK&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:42:26]  【获取临时素材成功】
+[2017-01-23 08:42:30]  【百度access_token成功】：access_token=24.ff7ffcb3e7860ccbd08e3dee85a2a446.2592000.1487724149.282335-9205973
+[2017-01-23 08:44:16]  调用百度语言转换失败。
+Error.Message = 
+未将对象引用设置到对象的实例。Error.Source = 
+Iwenli.WeiXin.RobotError.TargetSite = 
+System.Collections.Generic.List`1[System.String] VoiceToText(Byte[], System.String)
+[2017-01-23 08:45:22]  开始获取素材
+[2017-01-23 08:45:23]  【请求access_token成功】：access_token=PEpW_32OaY1dpif3enjRFJrY2UtmQfY0l-bNkOwWRFRaCeFbNyIZ8ug28pX7Hq41GAIvcMre9d6MRwBx2xrMy2W6ZZpCkNe0xuK9Hori0kVvLm9OrsFk85nL7IQ3s4NuHSKcAIANYQ
+[2017-01-23 08:45:23]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=PEpW_32OaY1dpif3enjRFJrY2UtmQfY0l-bNkOwWRFRaCeFbNyIZ8ug28pX7Hq41GAIvcMre9d6MRwBx2xrMy2W6ZZpCkNe0xuK9Hori0kVvLm9OrsFk85nL7IQ3s4NuHSKcAIANYQ&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:45:23]  【获取临时素材成功】
+[2017-01-23 08:45:35]  【百度access_token成功】：access_token=24.898217fd3adf5bc8db4638ed4f8b5337.2592000.1487724334.282335-9205973
+[2017-01-23 08:47:07]  调用百度语言转换失败。
+Error.Message = 
+未将对象引用设置到对象的实例。Error.Source = 
+Iwenli.WeiXin.RobotError.TargetSite = 
+System.Collections.Generic.List`1[System.String] VoiceToText(Byte[], System.String)
+[2017-01-23 08:57:19]  开始获取素材
+[2017-01-23 08:57:20]  【请求access_token成功】：access_token=-gYZLz5_CAKECLQckIorbFKVZXRw5yj1zj33Oe0G4TCSyI2BoY1rYPLNir6dKdi7NYw_-wN1AZXghKBI9L8tho9B_PNWlhhFzW_il55WE7OVxGFyBB6xQAOFVeDkkwn8LDBeAIAWOM
+[2017-01-23 08:57:20]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=-gYZLz5_CAKECLQckIorbFKVZXRw5yj1zj33Oe0G4TCSyI2BoY1rYPLNir6dKdi7NYw_-wN1AZXghKBI9L8tho9B_PNWlhhFzW_il55WE7OVxGFyBB6xQAOFVeDkkwn8LDBeAIAWOM&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:57:20]  【获取临时素材成功】
+[2017-01-23 08:58:29]  开始获取素材
+[2017-01-23 08:58:29]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=-gYZLz5_CAKECLQckIorbFKVZXRw5yj1zj33Oe0G4TCSyI2BoY1rYPLNir6dKdi7NYw_-wN1AZXghKBI9L8tho9B_PNWlhhFzW_il55WE7OVxGFyBB6xQAOFVeDkkwn8LDBeAIAWOM&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:58:29]  【获取临时素材成功】
+[2017-01-23 08:59:31]  开始获取素材
+[2017-01-23 08:59:32]  【请求access_token成功】：access_token=gHpZKoEWzNqSSpYyzwzOgEcMtEFTr7uWbQJBEgfw1LYxhGG90wNHB0hIfNd1CmtdRHkG5C-S1H9cSLSK-uGGgr-pa6fprJUv9OnoLV4TSD8IOEscgDWzWnCwi0TYOtXBKNScADAVYD
+[2017-01-23 08:59:32]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=gHpZKoEWzNqSSpYyzwzOgEcMtEFTr7uWbQJBEgfw1LYxhGG90wNHB0hIfNd1CmtdRHkG5C-S1H9cSLSK-uGGgr-pa6fprJUv9OnoLV4TSD8IOEscgDWzWnCwi0TYOtXBKNScADAVYD&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 08:59:32]  【获取临时素材成功】
+[2017-01-23 09:01:29]  开始获取素材
+[2017-01-23 09:01:30]  【请求access_token成功】：access_token=JnnvvaIzIVNe3T3UkQVwuLsfD3hFWbUFuQJPNuohlqGHWXoZUEs8jNPmC3URPs05C4lBrreHItBAXD_FO9Y1zX1RCOz8Xp3bHaM3-h-Xd-38qr5NKPynmb3VAiOPsKvyVTAfAHAFDK
+[2017-01-23 09:01:30]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=JnnvvaIzIVNe3T3UkQVwuLsfD3hFWbUFuQJPNuohlqGHWXoZUEs8jNPmC3URPs05C4lBrreHItBAXD_FO9Y1zX1RCOz8Xp3bHaM3-h-Xd-38qr5NKPynmb3VAiOPsKvyVTAfAHAFDK&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 09:01:30]  【获取临时素材成功】
+[2017-01-23 09:03:09]  开始获取素材
+[2017-01-23 09:03:09]  【请求access_token成功】：access_token=fJW4JTotuqReR7RPQGXWaVeI-bbm5RR4ol8CBmMfH_oUelFAV00JEHk6SnRGSdrHi23tbAstW7Oc0krjuw4bwO-qD9f9_vUbUFght-fcdHjra-Jdof38zKK3-YXrfYWsADHjAEAGJN
+[2017-01-23 09:03:09]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=fJW4JTotuqReR7RPQGXWaVeI-bbm5RR4ol8CBmMfH_oUelFAV00JEHk6SnRGSdrHi23tbAstW7Oc0krjuw4bwO-qD9f9_vUbUFght-fcdHjra-Jdof38zKK3-YXrfYWsADHjAEAGJN&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 09:03:09]  【获取临时素材成功】
+[2017-01-23 09:03:10]  【百度access_token成功】：access_token=24.d7901c87b2d1f8cd8c518c8d598de314.2592000.1487725388.282335-9205973
+[2017-01-23 09:03:10]  百度语言识别异常啦.
+Error.Message = 
+未将对象引用设置到对象的实例。Error.Source = 
+Iwenli.WeiXin.RobotError.TargetSite = 
+System.Collections.Generic.List`1[System.String] VoiceToText(Byte[], System.String)
+[2017-01-23 09:06:01]  开始获取素材
+[2017-01-23 09:06:01]  【请求access_token成功】：access_token=V8WFYVg0CF_RVgBAFArgoZJfk_dcrqIyKde4yPxIlMKnZqOOYw2i9miyr-O_tLTVfoJi-40Hvi8m16IIGIqe8zgkDYQrx_6GWp8lMYCFWzfFYN89-FNk13jqdTydH3OrEWXeAFALDE
+[2017-01-23 09:06:01]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=V8WFYVg0CF_RVgBAFArgoZJfk_dcrqIyKde4yPxIlMKnZqOOYw2i9miyr-O_tLTVfoJi-40Hvi8m16IIGIqe8zgkDYQrx_6GWp8lMYCFWzfFYN89-FNk13jqdTydH3OrEWXeAFALDE&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 09:06:02]  【获取临时素材成功】
+[2017-01-23 09:06:02]  【百度access_token成功】：access_token=24.b4ac48c13ca169173587fdef0f9813f7.2592000.1487725560.282335-9205973
+[2017-01-23 09:06:36]  百度语言识别异常啦.
+Error.Message = 未将对象引用设置到对象的实例。
+Error.Source = Iwenli.WeiXin.Robot
+Error.TargetSite = System.Collections.Generic.List`1[System.String] VoiceToText(Byte[], System.String)
+[2017-01-23 09:07:00]  开始获取素材
+[2017-01-23 09:07:00]  【请求access_token成功】：access_token=DLTDcat5YHFc2Dj4BkueHrrJi1STEI5tyX8iGCZ9KqBKkUNIRE3L1lM--x0lRJNQ2_C6sTxDt0R0Zxn5QC_LsVFNKLoLpCHdpPZCbQTXFq8AWXdAJAVRS
+[2017-01-23 09:07:00]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=DLTDcat5YHFc2Dj4BkueHrrJi1STEI5tyX8iGCZ9KqBKkUNIRE3L1lM--x0lRJNQ2_C6sTxDt0R0Zxn5QC_LsVFNKLoLpCHdpPZCbQTXFq8AWXdAJAVRS&media_id=vNMOpzylGw52bJm2VrpEIa0x_Y-NKkqev3XUEunpAB505NOGQd207z4spUi-J7yh
+[2017-01-23 09:07:00]  【获取临时素材成功】
+[2017-01-23 09:07:01]  【百度access_token成功】：access_token=24.37ed8767fe0c194e610ef17ccda23372.2592000.1487725619.282335-9205973
+[2017-01-23 09:07:11]  百度语言识别无结果.
+err_no = 3301
+err_msg = recognition error.
+sn = 542648457691485133619

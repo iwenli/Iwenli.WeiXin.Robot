@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--文本-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553262</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你好]]></Content>
+  <MsgId>6376107709870291821</MsgId>
+</xml>
+
+<!--表情-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553355</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[【收到不支持的消息类型，暂无法显示】]]></Content>
+  <MsgId>6376108109302250427</MsgId>
+</xml>
+
+<!--图片-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553478</CreateTime>
+  <MsgType><![CDATA[image]]></MsgType>
+  <PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz_jpg/yyWZNfbjQJHN49cHp7ReXQmczibhUWicpcDiaBBK8G9NLnc5IVvXZWcicOz9GP9qtGU3ic8LxTpVN1KyExIrPbuwPEg/0]]></PicUrl>
+  <MsgId>6376108637583227870</MsgId>
+  <MediaId><![CDATA[BzjrcwUgY9-7_joBk9CJ62B7aNRhQZrc0oCqpcHas_nTJdNcFwjjJouks08fn9yS]]></MediaId>
+</xml> 
+
+<!--取消关注-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553625</CreateTime>
+  <MsgType><![CDATA[event]]></MsgType>
+  <Event><![CDATA[unsubscribe]]></Event>
+  <EventKey><![CDATA[]]></EventKey>
+</xml>
+
+<!--关注-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553690</CreateTime>
+  <MsgType><![CDATA[event]]></MsgType>
+  <Event><![CDATA[subscribe]]></Event>
+  <EventKey><![CDATA[]]></EventKey>
+</xml>
+
+<!--位置-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553824</CreateTime>
+  <MsgType><![CDATA[location]]></MsgType>
+  <Location_X>39.911732</Location_X>
+  <Location_Y>116.195168</Location_Y>
+  <Scale>16</Scale>
+  <Label><![CDATA[石景山区首钢八角居民区(古城南路社区东北)]]></Label>
+  <MsgId>6376110123641912374</MsgId>
+</xml>
+
+<!--小视频-->
+<xml>
+  <ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+  <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+  <CreateTime>1484553893</CreateTime>
+  <MsgType><![CDATA[video]]></MsgType>
+  <MediaId><![CDATA[hjeP1EgzzMiETF4RJu2sW-FmvVUQyE-aRHs-V2864uAEVFM74suFO6KQZP9RC-YV]]></MediaId>
+  <ThumbMediaId><![CDATA[Q7KKhWvB50N1cPEhDU5Ymyj0CoSQDaw-fwahaCs7479WGz_MqAzjkOh63t5FrTkX]]></ThumbMediaId>
+  <MsgId>6376110419994655815</MsgId>
+</xml>
