@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>VIP电影免费看</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" /> 
+    <style>
+        .form-label {
+    line-height: 36px;
+    text-align: right;
+    font-size: 12px;
+}
+        .form-control {
+    padding: 0 10px;
+    width: 785px;
+    height: 34px;
+    line-height: normal;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    box-sizing: content-box;
+}
+        .btn {
+    display: inline-block;
+    padding: 10px 34px;
+    margin-left: 30px;
+    border-radius: 3px;
+    margin-top: -2px;
+    background-color: #f5694b;
+    color: #fff;
+    outline: 0 none;
+    border: none;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+    </style>
+</head>
+<body>
+    <div style="width: 1080px;margin: 0 auto;">
+        <p style="margin-top:20px; text-align:center; font-size:24px">VIP电影免费看</p>
+        <div style="margin: 20px;">
+            <label class="form-label">
+                视频地址：
+            </label>
+            <input type="text" name="txtUrl" class="form-control">
+            <input type="button" name="btnPlay"  class="btn" value="播放视频" onclick="paly();">
+        </div>
+        <div style="margin: 20px;">
+            <iframe src="https://api.47ks.com/webcloud/?v=http://www.iqiyi.com/v_19rrak7l6c.html" style="min-height: 500px; width: 100%;"
+                    frameborder="0" scrolling="no" id="palyFarme" > 
+            </iframe>
+        </div>
+    </div>
+    <!--https://api.47ks.com/webcloud/?v=http://www.iqiyi.com/v_19rrak7l6c.html-->
+    <script>
+       function paly() {
+           alert(decodeURI("https%3a%2f%2fapi.47ks.com%2fwebcloud%2f%3fv%3dhttp%3a%2f%2fwww.iqiyi.com%2f"));
+       };
+    </script>
+</body>
+</html>

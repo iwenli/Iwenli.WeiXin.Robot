@@ -13,9 +13,17 @@ namespace Iwenli.WeiXin.Robot
         private static DateTime GetAccessToken_Time;
         private static int Expires_Period = 7200;
         private static string _AccessToken = string.Empty;
+        /*
+         * 测试账号
+         * */
         private static string appID = "wxfbd56d884d96297c";
-        private static string appsecret = "a92a1aeb7f16d336dfb74473fcd0f3b5";
+        private static string appsecret = "a92a1aeb7f16d336dfb74473fcd0f3b5"; 
 
+        /*
+         * senz 
+        private static string appID = "wxdd490b783dfd9957";
+        private static string appsecret = "232d9ea31780e10fe055a8469aa88868";
+        */
         /// <summary>
         /// 微信access_token，2小时更新一次
         /// </summary>

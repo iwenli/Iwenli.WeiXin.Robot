@@ -1,0 +1,217 @@
+[2017-02-13 16:57:38]  
+【请求access_token成功】：access_token=VxH4Bjh3k_lL2LUwLcjalTOAuTnNG3DuPNNW6x7RsoCiea81TEQtiItzVckqjLvwUQq6TBnAzVgAi20QLi-GfaYWGKX5gaChXMC4vESyflsDVi3zIx8eClFNh2fZUCt6OFIfACABSV
+[2017-02-13 16:57:38]  
+【创建菜单】：{
+  "button": [
+    {
+      "name": "听歌", 
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "史诗级bgm",
+          "url": "http://music.163.com/m/playlist?id=470108695"
+        },
+        {
+          "type": "view",
+          "name": "一声佛号一声心",
+          "url": " http://music.163.com/m/song?id=5266890"
+        },
+        {
+          "type": "view",
+          "name": "QQ音乐",
+          "url": "https://m.y.qq.com/#search"
+        },
+        {
+          "type": "view",
+          "name": "百度音乐",
+          "url": "http://music.baidu.com/home"
+        },
+        {
+          "type": "view",
+          "name": "虾米音乐",
+          "url": "http://h.xiami.com/#!/search"
+        }
+      ]
+
+    },
+    {
+      "name": "娱乐",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "潮流电影院",
+          "url": "http://www.qinun.net/"
+        },
+        {
+          "type": "view",
+          "name": "五杀电影院",
+          "url": "http://www.707d.cn/"
+        }
+      ]
+    },
+    {
+      "name": "菜单",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "搜索",
+          "url": "https://m.baidu.com/"
+        },
+        {
+          "type": "click",
+          "name": "赞一下我们",
+          "key": "BIN_GOOD"
+        },
+        {
+          "type": "click",
+          "name": "帮助",
+          "key": "BIN_HELP"
+        }
+      ]
+    }
+  ]
+}
+[2017-02-13 16:58:31]  
+【创建菜单】：{
+  "button": [
+    {
+      "name": "听歌", 
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "史诗级bgm",
+          "url": "http://music.163.com/m/playlist?id=470108695"
+        },
+        {
+          "type": "view",
+          "name": "一声佛号一声心",
+          "url": " http://music.163.com/m/song?id=5266890"
+        },
+        {
+          "type": "view",
+          "name": "QQ音乐",
+          "url": "https://m.y.qq.com/#search"
+        },
+        {
+          "type": "view",
+          "name": "百度音乐",
+          "url": "http://music.baidu.com/home"
+        },
+        {
+          "type": "view",
+          "name": "虾米音乐",
+          "url": "http://h.xiami.com/#!/search"
+        }
+      ]
+
+    },
+    {
+      "name": "娱乐",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "潮流电影院",
+          "url": "http://www.qinun.net/"
+        },
+        {
+          "type": "view",
+          "name": "五杀电影院",
+          "url": "http://www.707d.cn/"
+        }
+      ]
+    },
+    {
+      "name": "菜单",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "搜索",
+          "url": "https://m.baidu.com/"
+        },
+        {
+          "type": "click",
+          "name": "赞一下我们",
+          "key": "BIN_GOOD"
+        },
+        {
+          "type": "click",
+          "name": "帮助",
+          "key": "BIN_HELP"
+        }
+      ]
+    }
+  ]
+}
+[2017-02-13 16:59:25]  
+【获取菜单】：{"errcode":46003,"errmsg":"menu no exist hint: [VC5uEA0363vr18]"}
+[2017-02-13 17:01:28]  
+【创建菜单】：{
+  "button": [
+    {
+      "name": "听歌", 
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "史诗级bgm",
+          "url": "http://music.163.com/m/playlist?id=470108695"
+        },
+        {
+          "type": "view",
+          "name": "一声佛号一声心",
+          "url": " http://music.163.com/m/song?id=5266890"
+        },
+        {
+          "type": "view",
+          "name": "QQ音乐",
+          "url": "https://m.y.qq.com/#search"
+        },
+        {
+          "type": "view",
+          "name": "百度音乐",
+          "url": "http://music.baidu.com/home"
+        },
+        {
+          "type": "view",
+          "name": "虾米音乐",
+          "url": "http://h.xiami.com/#!/search"
+        }
+      ]
+
+    },
+    {
+      "name": "娱乐",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "潮流电影院",
+          "url": "http://www.qinun.net/"
+        },
+        {
+          "type": "view",
+          "name": "五杀电影院",
+          "url": "http://www.707d.cn/"
+        }
+      ]
+    },
+    {
+      "name": "菜单",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "搜索",
+          "url": "https://m.baidu.com/"
+        },
+        {
+          "type": "click",
+          "name": "赞一下我们",
+          "key": "BIN_GOOD"
+        },
+        {
+          "type": "click",
+          "name": "帮助",
+          "key": "BIN_HELP"
+        }
+      ]
+    }
+  ]
+}

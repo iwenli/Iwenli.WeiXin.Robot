@@ -1,0 +1,211 @@
+[2017-02-08 11:32:46]  
+【百度access_token成功】：access_token=24.8d3dc9b59450032b6130610eba9eb63f.2592000.1489116766.282335-9205973
+[2017-02-08 11:32:47]  
+【请求access_token成功】：access_token=jLRajMWrtkUMTTcL2_N-IY-lJm7KqyZGQGVSyomQLCgN2ggXBYOfIlgrFAminZqi3v83OEU3dDPGzlz_miTxiyBCGHkb-OL3nh91QnlsKe89_V0A34VipLSBaGUBPTAHIBVaAGAVOI
+[2017-02-08 11:32:47]  
+上传临时素材成功.
+type = voice
+media_id = grPfpBvqXcMzUasnf0sWYZpDMqUoGnoPQDLSzfPmNvTIk6kBCX6Sober4hgxB5kH
+created_at = 1486524768
+[2017-02-08 11:34:20]  
+【百度access_token成功】：access_token=24.7698d768ee87f23e0a45511fcfb537c3.2592000.1489116861.282335-9205973
+[2017-02-08 11:34:21]  
+【请求access_token成功】：access_token=_1OcV2H7ui93Ut8PLmAcCLEN-u0HKtQBaWdLvrr7Uyv9oP9cpQ_lnyato_bAG8iD6kaSl4N7QZCds4BguGlcuiyckKqJ8VDVt00Rg5VStCHh1me2zJqgV7o1Ms_E4f2PBXIfAHAKGR
+[2017-02-08 11:34:21]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [izExVA0861e621]
+[2017-02-08 11:35:06]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [UwB7Na0906e565]
+[2017-02-08 11:36:13]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [0v.LVa0973e618]
+[2017-02-08 11:36:27]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [q7.WGa0988e619]
+[2017-02-08 11:36:50]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [TdPL8a0011re20]
+[2017-02-08 11:38:04]  
+【百度access_token成功】：access_token=24.fbc10b40eb428b88f5c474f8fb4fe731.2592000.1489117084.282335-9205973
+[2017-02-08 11:42:15]  
+【百度access_token成功】：access_token=24.f3ae187381fd7e54dc1a248b7522a29a.2592000.1489117335.282335-9205973
+[2017-02-08 11:45:48]  
+【请求access_token成功】：access_token=BDYKsA_tm7FuvCOcdB3_dARG2u57RJyAm2-VJrDF86xWPXze7aUjaUuR_7uXylbwTMxME-TzOtfMg-io-dahqBfE8kno1ZzxKQM5IzEr2JWYlE5mZey-z_4xYSBu-8XUJWPbAEAVIB
+[2017-02-08 11:45:48]  
+上传临时素材成功.
+type = voice
+media_id = 80Dn3urOxrZS9_FdFzu8HZA_godgL2o7R5UsklabW7z1O85js6rN6oUgOhW8lef9
+created_at = 1486525549
+[2017-02-08 11:45:50]  
+上传临时素材成功.
+type = voice
+media_id = q2LvfmMHcoibrvOqyUlmcfhbJHL_UkGf54tnSfbO94eNpTLFJ1rs4NvBqgp5XoMj
+created_at = 1486525550
+[2017-02-08 11:45:51]  
+上传临时素材成功.
+type = voice
+media_id = Ikt_dfh4oVH_EIACepJCslbWAvbebVdYWFJ9TRq6BJjJ80d8mywDHkxqNI25bgKS
+created_at = 1486525552
+[2017-02-08 11:45:54]  
+上传临时素材成功.
+type = voice
+media_id = CUa09sU5ZWJSLzM8pzQenS-G--Uf9WWyMlB-ClBpLE8_WqIysHrRmDAgtoOvLtgi
+created_at = 1486525555
+[2017-02-08 11:45:57]  
+【请求access_token成功】：access_token=BDYKsA_tm7FuvCOcdB3_dARG2u57RJyAm2-VJrDF86zf6CKr5SiBY4tVNobUI17g-Ar98V2DExqHfYRL7bLehT-o1WpsWW63SGdGzt2fCo2NcCEWEQZnMsKWqC-iiQQnBLEbAEANXQ
+[2017-02-08 11:45:57]  
+上传临时素材成功.
+type = voice
+media_id = CX0PVLAFVtVRdltyPGxlEn11L-RhwBpufHrSNd_vEgVukv1gKLL3af2dvE7iKxF0
+created_at = 1486525558
+[2017-02-08 11:45:58]  
+上传临时素材成功.
+type = voice
+media_id = -Pe5_z2dAXmtwcUsRxqJWzbhHEoXjGCVQL-mj8mcfBbXLbRS4G34ykBMJqoEYyHY
+created_at = 1486525559
+[2017-02-08 11:46:01]  
+上传临时素材成功.
+type = voice
+media_id = oz1tQN0wEJwLL6_8BccCXvZnjldYH1tWao106HZRWLmZEBHmNLYIege4XUAlgPup
+created_at = 1486525561
+[2017-02-08 11:47:57]  
+【百度access_token成功】：access_token=24.3fd51b5abf31414ad0765593d37eb679.2592000.1489117677.282335-9205973
+[2017-02-08 11:49:44]  
+【请求access_token成功】：access_token=Q47n0bgfRl_PTx7yVlsMuwIttmF4bBT_pFxRRLaNXyEWjkPeOzMGl2fNetm4VrIrQofl3xT7J_fsN8Nb1M79uMX494YrOqGy_h9xUnP3SvqdCrJf_dGXAjPExe1O8jPoZMMfACAQDD
+[2017-02-08 11:49:45]  
+上传临时素材成功.
+type = voice
+media_id = knIFAVgewjcorW-XW_wCaJbKRS5x0q86Xd18l1Q5pVzxCR9FZR5D-h7bTke9AK81
+created_at = 1486525785
+[2017-02-08 11:55:13]  
+【百度access_token成功】：access_token=24.033a55d5ec22fe91620bf10d6941fc47.2592000.1489118114.282335-9205973
+[2017-02-08 11:56:35]  
+【百度access_token成功】：access_token=24.2dd43b99bf284504835ec6e88033e40c.2592000.1489118196.282335-9205973
+[2017-02-08 11:56:43]  
+【请求access_token成功】：access_token=8AUpvtJaZwdtOMRdMZGK1lB-8Wb7vyohTX30Pd73tArVyaf6MOFjEtBlfFdhWWg3LsMuv_aPBzNeqKTW_kucBvLvtADPGDEEHpbfciq6_HSU_67Nfb6mILqd0Qcq1i_SHALeAHANGR
+[2017-02-08 11:56:43]  
+上传临时素材成功.
+type = voice
+media_id = kGwRgCAxNxxx8THIG2BkB1VmP0vrLpPjJOcg4JCD0sJ0oyMEf4JDN1-qhIn-dEXp
+created_at = 1486526204
+[2017-02-08 11:57:45]  
+上传临时素材成功.
+type = voice
+media_id = eeVVReu9VtE4TFju4uo4-m7q7ESIShhZVvGuRr04Q5SZq1zQBBfC1fipwL7SqmC1
+created_at = 1486526266
+[2017-02-08 11:59:44]  
+【百度access_token成功】：access_token=24.4fc5902645d2bedecb16325ca9142ac7.2592000.1489118384.282335-9205973
+[2017-02-08 12:00:36]  
+【请求access_token成功】：access_token=jLRajMWrtkUMTTcL2_N-ISdPAu35bHLrnq5BMMtj6gWaVuniDTR0126cLgVHf4Cs8zjEiaSfXEuTfmSUiYaWDGDPlchToCD8XlrsU3WvGXMlZOakQsTGQ8Fy1b0-EgTsNUIeACACJX
+[2017-02-08 12:00:37]  
+上传临时素材成功.
+type = voice
+media_id = MyFTmq1Gd0I7OQOBkayr-6Vu2-Tw20fJFvuomRlPvvjg5aazu5OYHkVzF9B76F3k
+created_at = 1486526437
+[2017-02-08 12:03:08]  
+【百度access_token成功】：access_token=24.91cc26efb2590671dc5dcf1d64df61fb.2592000.1489118589.282335-9205973
+[2017-02-08 12:03:40]  
+【请求access_token成功】：access_token=EIrM797u4Ek8cft-WcDdw2BYCHwF5Nb-HysNMCe6enfeAUcVnOTOUgaxmVUno71SZnx6p28p9i8KF1yfdKrG9RV55iAkaCJsOEM7LK0MhJ3MhC3kcPlGXFGluUbd_b3nYGLjAEATBG
+[2017-02-08 12:03:41]  
+上传临时素材成功.
+type = voice
+media_id = 6o8PqMtVYcTuScYtgiE7Nc5UtgEutdnqU25txWlB_BMYEcr8GA38aeRxUmZd9xC7
+created_at = 1486526621
+[2017-02-08 12:04:01]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [sWBjCA0641e547]
+[2017-02-08 12:04:49]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [IL9jVA0690e298]
+[2017-02-08 12:06:21]  
+【百度access_token成功】：access_token=24.767aadd25dfe71942fa391e13df9799e.2592000.1489118781.282335-9205973
+[2017-02-08 12:08:57]  
+【请求access_token成功】：access_token=8q8TOOu35RCvjZtMZCkaUA93vrv64Qbh9B5p0Fq-LK1MU5w4W8h9EVpGJyWlBOEAdbB0JuWSLsOIaCU-ve7K1_Ppb-IuHlfsZ_18weyoF5EDBHPWUrWavdWgGb_N4n3_EWHgADAQIT
+[2017-02-08 12:08:57]  
+上传临时素材成功.
+type = voice
+media_id = 7SbbFTxvjVfPmeY4NzMHtUP87mGCWOPytrHR4aVIt8AMW5IB4EG9PcTq-sFRjn7h
+created_at = 1486526938
+[2017-02-08 12:09:25]  
+上传临时素材成功.
+type = voice
+media_id = 3YYiKHhPdz1dBwlD8vxkUqciLpwoEL51bhjTQv_MypxBSNisjcoBwN6WPXCuvM76
+created_at = 1486526966
+[2017-02-08 12:09:32]  
+上传临时素材成功.
+type = voice
+media_id = XLgzP_Iv1ctR7V62tEC3GFt4Lg8fni-ihyrSvF6nwi71HP1A-G28Vnxf_2D_THnP
+created_at = 1486526973
+[2017-02-08 12:09:34]  
+上传临时素材成功.
+type = voice
+media_id = 1LZAi_w4zqMKqbUrx9pd2KIJLNgFmZus63Iz7UUPLoa2qpKa1K7830RbyF7avmL3
+created_at = 1486526975
+[2017-02-08 12:09:38]  
+上传临时素材成功.
+type = voice
+media_id = 9D1h7dGN01JNDMxiERfq8mvNm5mdgBuCbvVlP6-MH-kZ20Zt_jZqsR8hzo6dfUc1
+created_at = 1486526978
+[2017-02-08 12:11:09]  
+【百度access_token成功】：access_token=24.49ed1014ee290227acdb29a282b81e93.2592000.1489119069.282335-9205973
+[2017-02-08 12:13:22]  
+【百度access_token成功】：access_token=24.4c2d294fe86d016695942ef548c32487.2592000.1489119202.282335-9205973
+[2017-02-08 12:13:27]  
+【请求access_token成功】：access_token=IKkIEAbsCGPhMSXmXAiEPyA_hNjtCoyydY7oajc_DDrG_BNwMgo1CC0_inZXq10Lx2YQJMuLqxUh6St-bDmW5f5fyXVs_fKkOCZhp-Y60Y0sjZejsrZVbZTMT2J4dqDbXQBdADAQJU
+[2017-02-08 12:13:27]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [RSB.Za0208e421]
+[2017-02-08 12:13:42]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [EckPGa0222re20]
+[2017-02-08 12:16:30]  
+【百度access_token成功】：access_token=24.ee8887709983046becac33f1321288b1.2592000.1489119391.282335-9205973
+[2017-02-08 12:16:35]  
+【请求access_token成功】：access_token=3oeIwUsQn1eH6OpptvKQP723B3twZBtKnIA9Ct5K61RC0enueIRP2G03oFiQq3iSIdg4RytCQ3nNQKlKvlWsebzj70Gmw7Rh2XPhNJXtwoARBW8ujPOaNlAXNneEeRa9GFIiAAAJIL
+[2017-02-08 12:16:35]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [L5_Lua0395re20]
+[2017-02-08 12:17:13]  
+上传临时素材成功.
+type = voice
+media_id = F7DdgDh2z0PBsZIcSKGcPY0C9Gj2IuNulzZuCYlKFDViBbw3i6fKb-tMURQXCjE8
+created_at = 1486527433
+[2017-02-08 12:18:42]  
+【请求access_token成功】：access_token=TGaluPd8151Jz_DflcZyPX4QfTJsFKAAw1EylAmgZ6kVzlbtPVGSAan8RL2JEyyNwl07y_Pq7ltXJIdt9xkAf1byIpUpbE5STucPGlhoaQ8zY74G_U2A1XGofLv3NS6_UCIjABAGOU
+[2017-02-08 12:18:42]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [MTyfCA0523e541]
+[2017-02-08 12:18:44]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [iQTJIA0525re19]
+[2017-02-08 12:18:49]  
+上传临时素材失败.
+errcode = 41005
+errmsg = media data missing hint: [G0hvNa0530e565]
+[2017-02-08 12:20:07]  
+【百度access_token成功】：access_token=24.f172d5f2d907d4d0cdf86e83e140e29c.2592000.1489119607.282335-9205973
+[2017-02-08 12:20:14]  
+【请求access_token成功】：access_token=0ZvTVH5QAnO-WgV5nXI4SAw2yr_m1NreBJwwoC8BzzDbvACZy0R4Sp3_DGD4xsuM_HzLBPxI5xYHKSBlzqNeaBKoKb1Y7Zxz0yqy0CJuVLP4ZIYCWycgep-Xp8_sBM_DNCGfAIAHWA
+[2017-02-08 12:20:14]  
+上传临时素材成功.
+type = voice
+media_id = JaZ17DZWmPgi2m-DbiCleDiMtF9dE8mbrpYC-RfmnK9ljfxg82S0oj7fNxw3nkMO
+created_at = 1486527615
+[2017-02-08 12:28:59]  
+上传临时素材成功.
+type = voice
+media_id = LnDAjieLZ5nyo6uQx4-YhbECIM76vwsEdPpVBcJt0Qp3F9AB1UfLnRR_3VpUrkdT
+created_at = 1486528139

@@ -18,7 +18,7 @@ namespace Iwenli.WeiXin.Robot.Handlers
         /// <param name="requestXml">请求的xml</param>
         /// <returns>IHandler对象</returns>
         public static IHandler CreateHandler(string requestXml)
-        {
+        { 
             IHandler handler = null;
             if (!string.IsNullOrEmpty(requestXml))
             {

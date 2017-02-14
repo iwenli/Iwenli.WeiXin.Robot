@@ -9,6 +9,9 @@
     <_PublishTargetUrl>C:\Users\jsonZhang\Desktop\wx</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="app/ffmpeg.exe">
+      <publishTime>02/08/2017 11:20:16</publishTime>
+    </File>
     <File Include="bin/FSLib.Extension.dll">
       <publishTime>09/02/2016 04:00:52</publishTime>
     </File>
@@ -16,19 +19,37 @@
       <publishTime>09/19/2016 01:18:06</publishTime>
     </File>
     <File Include="bin/Iwenli.WeiXin.Robot.dll">
-      <publishTime>01/23/2017 08:14:46</publishTime>
+      <publishTime>02/08/2017 12:34:28</publishTime>
     </File>
     <File Include="bin/Iwenli.WeiXin.Robot.Web.dll">
-      <publishTime>01/23/2017 08:14:46</publishTime>
+      <publishTime>02/08/2017 12:34:28</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/13/2016 23:06:14</publishTime>
     </File>
+    <File Include="Data/menu.json">
+      <publishTime>02/07/2017 09:18:42</publishTime>
+    </File>
+    <File Include="Log/2017/2017-1-22.txt">
+      <publishTime>01/22/2017 19:30:19</publishTime>
+    </File>
+    <File Include="Log/2017/2017-1-23.txt">
+      <publishTime>01/23/2017 13:41:26</publishTime>
+    </File>
+    <File Include="Log/2017/2017-2-6.txt">
+      <publishTime>02/06/2017 13:07:50</publishTime>
+    </File>
+    <File Include="Log/2017/2017-2-7.txt">
+      <publishTime>02/07/2017 11:41:45</publishTime>
+    </File>
+    <File Include="Log/2017/2017-2-8.txt">
+      <publishTime>02/08/2017 12:28:59</publishTime>
+    </File>
     <File Include="packages.config">
-      <publishTime>01/22/2017 13:27:14</publishTime>
+      <publishTime>01/23/2017 09:02:15</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/23/2017 08:14:47</publishTime>
+      <publishTime>02/07/2017 11:11:07</publishTime>
     </File>
     <File Include="web/css/base.css">
       <publishTime>01/20/2017 15:12:53</publishTime>

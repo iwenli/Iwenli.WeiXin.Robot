@@ -30,9 +30,9 @@ namespace Iwenli.WeiXin.Robot.Utility
         public static void CreateLogTxt(string message)
         {
             //string defaultLogPath = Assembly.GetExecutingAssembly().Location.ToString(); //winform
-            //defaultLogPath = defaultLogPath.Substring(0, defaultLogPath.LastIndexOf("\\")); //winform 
+            //defaultLogPath = defaultLogPath.Substring(0, defaultLogPath.LastIndexOf("\\")); //winform  
             string defaultLogPath = System.Web.HttpRuntime.AppDomainAppPath.ToString();//web 
-            CreateLogTxt(message, defaultLogPath);
+            CreateLogTxt("\r\n" + message, defaultLogPath);
         }
 
 
@@ -86,7 +86,7 @@ namespace Iwenli.WeiXin.Robot.Utility
         /// <param name="filepath">文件全路径</param>
         private static void WriteTxt(string message, string filepath)
         {
-            StreamWriter FileWriter = new StreamWriter(filepath, true);           //创建日志文件
+            StreamWriter FileWriter = new StreamWriter(filepath, true);           //创建日志文件 
             FileWriter.WriteLine(GetTimePrefix + message);
             FileWriter.Close();     //关闭StreamWriter对象
         }

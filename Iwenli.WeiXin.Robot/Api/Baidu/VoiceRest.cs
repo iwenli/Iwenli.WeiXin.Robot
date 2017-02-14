@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
-using FSLib.Network.Http; 
+using System.Web;
+using FSLib.Network.Http;
 using Iwenli.WeiXin.Robot.Utility;
 
 namespace Iwenli.WeiXin.Robot.Api.Baidu
@@ -12,8 +14,10 @@ namespace Iwenli.WeiXin.Robot.Api.Baidu
     /// </summary>
     public class VoiceRest
     {
-        private const string ApiUrl = "http://vop.baidu.com/server_api";
+        private const string ApiUrl2Text = "http://vop.baidu.com/server_api";
+        private const string ApiUrl2Voice = "http://tsn.baidu.com/text2audio";
         private const string Cuid = "iwenli_9205973";
+        private static HttpClient client = new HttpClient();
 
         public VoiceRest() { }
 
@@ -26,11 +30,9 @@ namespace Iwenli.WeiXin.Robot.Api.Baidu
         public static List<string> VoiceToText(byte[] voice, string format = "amr")
         {
             List<string> result = null;
-            HttpClient client = new HttpClient();
-
             try
             {
-                var send = client.Create<VoiceToTextResult>(HttpMethod.Post, ApiUrl, data: new
+                var send = client.Create<VoiceToTextResult>(HttpMethod.Post, ApiUrl2Text, data: new
                 {
                     format = format,    //语音压缩的格式，请填写上述格式之一，不区分大小写
                     rate = 8000,        //采样率，支持 8000 或者 16000
@@ -68,6 +70,35 @@ namespace Iwenli.WeiXin.Robot.Api.Baidu
             return result;
         }
 
+        /// <summary>
+        /// 文字合成语言
+        /// </summary>
+        /// <param name="text">待合成的文字</param>
+        /// <param name="lan">选填 | >中文（zh）、粤语（ct）、英文（en），默认为zh</param>
+        /// <param name="spd">选填 | 语速，取值0 - 9，默认为5中语速</param>
+        /// <param name="pit">选填 | 音调，取值0 - 9，默认为5中语调</param>
+        /// <param name="vol">选填 | 音量，取值0 - 9，默认为5中音量</param>
+        /// <param name="per">选填 | 发音人选择，取值0 - 1, 0为女声，1为男声，默认为女声</param
+        /// <returns></returns>
+        public static byte[] TextToVoice(string text, string lan = "zh", int spd = 5, int pit = 5, int vol = 5, int per = 0)
+        {
+            byte[] result = null;
+            string data = string.Format("tex={0}&lan={1}&cuid={2}&ctp={3}&tok={4}&spd={5}&pit={6}&vol={7}&per={8}", text, lan, Cuid, 1, Context.AccessToken, spd, pit, vol, per);
+            var context = client.Create<byte[]>(HttpMethod.Post, ApiUrl2Voice, data: data, contentType: ContentType.Json);
+            context.Send();
+            if (context.Response.Headers.Get("Content-Type").Equals("audio/mp3"))
+            {
+                //成功
+                result = context.Result;
+            }
+            else
+            {
+                LogHelper.CreateLogTxt("调用百度接口转语音  -  失败");
+                //失败
+            }
+
+            return result;
+        }
         #region 内部类
         public class VoiceToTextResult
         {

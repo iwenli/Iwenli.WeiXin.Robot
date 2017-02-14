@@ -1,0 +1,34 @@
+[2017-01-22 13:13:03]  【请求access_token成功】：access_token=E2uBxbClXLXaZNCsTUwSpnJggQzQ6Nrz9UMnlbDvPR38EXWivdWMmk6DxEF_R6-Bt4d9YipbQjCUg74y0YdXdV3iip0nmrePty0B273EISgi3PheiRwOkWslzgYJd3VZLEGfAFAATV
+[2017-01-22 16:09:36]  【请求access_token成功】：access_token=0ad_cXpvry0wrEsB5JXtkmqqv60YN2fuo92X6oY3Hm3FVWBF-RQmJydjaWBFvRvEfqt7Qw18o1nIU1Jp12Awsh22eKrWNbZf5kTjXC5xNvROYiaFTZlx9UeISQLrm-7bWUIeADAZXL
+[2017-01-22 16:10:22]  【百度access_token成功】：access_token=24.6d270d53dba5c461bfeacd5e20f906f6.2592000.1487664620.282335-9205973
+[2017-01-22 16:14:57]  【请求access_token成功】：access_token=gqhzH-qB7swAz5a5wGOy0SQ0FSTXQ3MaUrv1UUEkZc9YGlPp3ZevSavMA4pFtwDdTltfASUqgbxvpJobjXx6WUZHNochzRXk7Zhrxp77iQd-u_EwtfoaFhBIF0tc_v0cADAdAJAQTQ
+[2017-01-22 16:15:04]  【百度access_token成功】：access_token=24.ffe7ed63ee5e45ae848cf6730d246ac9.2592000.1487664902.282335-9205973
+[2017-01-22 16:20:13]  【请求access_token成功】：access_token=wMHrCltSKhc99N0I3CFTQ_nmHfuYzfkSUZ7zxkR-kD3ftQM8hNxCBN-KfWFKuDYliNHXEXsMeqcBBWuYSsE-Ya1IEEDyrunZaP8q_a0AaQAcB73IKroL4SixIbU5r4USOPHbAGAWXP
+[2017-01-22 16:20:13]  【百度access_token成功】：access_token=24.9e92bdb422d8b57434254e0def7ea91b.2592000.1487665212.282335-9205973
+[2017-01-22 16:30:50]  【请求access_token成功】：access_token=WP-UMzvzwRsNTtS7KKngXT78AYuRmwMV3r_rmuwiu46AHsU6HJC17W31LRjYpLB83AM0H14XrVMXUlmZDigjSPsEfnaxELTq3-NO28Y35jQwm9DK_ZdOQJZyEHX8TtFkSGBeABANBW
+[2017-01-22 16:30:51]  【百度access_token成功】：access_token=24.10dd9b52e62ef83ffd4d55f0c5bbc28c.2592000.1487665849.282335-9205973
+[2017-01-22 19:29:11]  语音请求： <xml><ToUserName><![CDATA[gh_b07eda6c5e91]]></ToUserName>
+                                                    <FromUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></FromUserName>
+                                                    <CreateTime>1485084344</CreateTime>
+                                                    <MsgType><![CDATA[voice]]></MsgType>
+                                                    <MediaId><![CDATA[RIZ9I3DAkCmYO4QTZSamQo4jMnZYWyrix-aXrrIUChjRtl8L_9tmX2QYVLrSQlnH]]></MediaId>
+                                                    <Format><![CDATA[amr]]></Format>
+                                                    <MsgId>6378388689691872444</MsgId>
+                                                    <Recognition><![CDATA[]]></Recognition>
+                                                    </xml>
+[2017-01-22 19:29:15]  begin
+[2017-01-22 19:29:15]  开始获取素材
+[2017-01-22 19:29:16]  【请求access_token成功】：access_token=IKkIEAbsCGPhMSXmXAiEP5Wg3vF_fjdbGbORA6i5p15Zn1uIvSfKQ684auRGkOLydCtNlvxeBIzYyUee_6F5Y-Dtur1_m0x9o99iTq21wwmzYCnidM04Yz4j3vNxM82ZUJYbACAHWL
+[2017-01-22 19:29:16]  素材url=https://api.weixin.qq.com/cgi-bin/media/get?access_token=IKkIEAbsCGPhMSXmXAiEP5Wg3vF_fjdbGbORA6i5p15Zn1uIvSfKQ684auRGkOLydCtNlvxeBIzYyUee_6F5Y-Dtur1_m0x9o99iTq21wwmzYCnidM04Yz4j3vNxM82ZUJYbACAHWL&media_id=RIZ9I3DAkCmYO4QTZSamQo4jMnZYWyrix-aXrrIUChjRtl8L_9tmX2QYVLrSQlnH
+[2017-01-22 19:29:16]  【获取临时素材成功】
+[2017-01-22 19:29:17]  语音字节流OK
+[2017-01-22 19:29:25]  【百度access_token成功】：access_token=24.d11e9728fdbeec139ca683d361db3f01.2592000.1487676563.282335-9205973
+[2017-01-22 19:29:25]  语言转换成功=>喂喂喂，
+[2017-01-22 19:30:19]  语音识别后返回文字： <xml>
+                                <ToUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></ToUserName>
+                                <FromUserName><![CDATA[gh_b07eda6c5e91]]></FromUserName>
+                                <CreateTime>1485084617</CreateTime>
+                                <MsgType><![CDATA[text]]></MsgType>
+                                <Content><![CDATA[喂喂喂，]]></Content>
+                                <MsgId></MsgId>
+                            </xml>

@@ -72,6 +72,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\ffmpeg.exe" />
+    <Content Include="Log\2017\2017-1-22.txt" />
+    <Content Include="Log\2017\2017-1-23.txt" />
+    <Content Include="Log\2017\2017-2-6.txt" />
+    <Content Include="Log\2017\2017-2-7.txt" />
+    <Content Include="Log\2017\2017-2-8.txt" />
+    <Content Include="temp\ls.mp3" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -83,9 +90,11 @@
     </Content>
     <Content Include="web\css\base.css" />
     <Content Include="web\index.html" />
+    <Content Include="web\VIPVideo.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIPVideo.cs" />
     <Compile Include="WeiXinHttpHandler.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +104,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\menu.json" />
     <None Include="Properties\PublishProfiles\wx.pubxml" />
   </ItemGroup>
   <ItemGroup>

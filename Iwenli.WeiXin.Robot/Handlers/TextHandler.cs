@@ -32,57 +32,11 @@ namespace Iwenli.WeiXin.Robot.Handlers
         public string HandleRequest()
         {
             LogHelper.CreateLogTxt("文本请求： " + RequestXml);
-            string response = string.Empty;
             TextMessage tm = TextMessage.LoadFromXml(RequestXml);
-            string content = tm.Content.Trim();
-            if (string.IsNullOrEmpty(content))
-            {
-                response = "您什么都没输入，没法帮您啊，%>_<%。";
-            }
-            else if (content.Contains("kd") || content.Contains("ckd") || content.Contains("快递") || content.Contains("查快递"))
-            {
-                string kuaidiNum = content.Replace("kd", "").Replace("c", "").Replace("快递", "").Replace("查", "").Trim();
-                if (!string.IsNullOrEmpty(kuaidiNum) && Regex.IsMatch(kuaidiNum, @"^[+-]?\d*[.]?\d*$"))
-                {
-                    KuaiDi100 kd = new KuaiDi100(kuaidiNum);
-                    response = kd.GetResult();
-                }
-                else
-                { response = "请输入正确的快递单号！"; }
-            }
-            else if (content == "创建菜单")
-            {
-                Menu.MenuManage.CreateMenu(Menu.MenuManage.LoadMenu());
-                response = "创建好了哦。";
-            }
-            else if (content == "删除菜单")
-            {
-                Menu.MenuManage.DeleteMenu();
-                response = "删除好了哦。";
-            }
-            else if (content == "获取菜单")
-            {
-                response = Menu.MenuManage.GetMenu();
-            }
-            else
-            {
-                response = TuLingRobot.Say(tm.FromUserName, content);
-            }
-            tm.Content = response;
+            string response = string.Empty;
 
-            if (content == "iwenli")
-            {
-                string res = @"<xml>
-                                  <ToUserName><![CDATA[oWqQMwsAintKpK13GVFhktlF-e6c]]></ToUserName>
-                                  <FromUserName><![CDATA[gh_b07eda6c5e91]]></FromUserName>
-                                  <CreateTime>1484553262</CreateTime>
-                                  <MsgType><![CDATA[event]]></MsgType>
-                                  <Event><![CDATA[unsubscribe]]></Event>
-                                  <EventKey><![CDATA[]]></EventKey>
-                                </xml>";
-                //进行发送者接受者转换  
-                return res;
-            }
+            string content = tm.Content.Trim(); 
+            tm.Content = HandleCommon.AutoResponseText(tm.FromUserName, content); 
 
             //进行发送者接受者转换
             string temp = tm.ToUserName;

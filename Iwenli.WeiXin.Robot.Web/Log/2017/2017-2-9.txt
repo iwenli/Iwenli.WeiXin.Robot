@@ -1,0 +1,7 @@
+[2017-02-09 08:11:07]  
+【请求access_token成功】：access_token=vBkZys_VseA9kcy9a8eHu-N7IGPaBfl7dcM8tsjGdfVODug04QzQ0zbkAjPYt5ZlgUQvTo3iE9bgcnpmDpq9WcZq4rGe6wXIOyksztj4PYcQBLbAAAHSC
+[2017-02-09 08:11:09]  
+上传临时素材成功.
+type = voice
+media_id = adLa3mbda1blvzDYw1o9OxyCUJxIVALaT-g7LnXZHiCu0v_ndhqFGAXA0rP1PoMu
+created_at = 1486599069

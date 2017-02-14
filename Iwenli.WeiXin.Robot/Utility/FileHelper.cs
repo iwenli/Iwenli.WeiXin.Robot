@@ -6,9 +6,17 @@ using System.Text;
 
 namespace Iwenli.WeiXin.Robot.Utility
 {
-    class FileHelper
+    public class FileHelper
     {
-        
+        private static string _RootPath = System.Web.HttpRuntime.AppDomainAppPath.ToString();
+        /// <summary>
+        /// 程序根目录
+        /// </summary>
+        public static string RootPath
+        {
+            set { _RootPath = value; }
+            get { return _RootPath; }
+        }
 
         #region 取得文件后缀名
         /****************************************
@@ -33,65 +41,110 @@ namespace Iwenli.WeiXin.Robot.Utility
         }
         #endregion
 
-        #region 写文件
-        /****************************************
-         * 函数名称：WriteFile
-         * 功能说明：当文件不存时，则创建文件，并追加文件
-         * 参    数：Path:文件路径,Strings:文本内容
-         * 调用示列：
-         *           string Path = Server.MapPath("Default2.aspx");       
-         *           string Strings = "这是我写的内容啊";
-         *           DotNet.Utilities.FileOperate.WriteFile(Path,Strings);
-        *****************************************/
+        #region 写文件 
         /// <summary>
-        /// 写文件
+        /// 写文件 | 文本
         /// </summary>
-        /// <param name="Path">文件路径</param>
-        /// <param name="Strings">文件内容</param>
-        public static void WriteFile(string Path, string Strings)
+        /// <param name="path">文件相对路径</param>
+        /// <param name="Strings">文本内容</param>
+        public static void WriteFile(string path, string Strings)
         {
-            string pathD = Path.Substring(0, Path.LastIndexOf("\\"));
+            path = _RootPath + path;
+            string pathD = path.Substring(0, path.LastIndexOf("\\"));
             if (Directory.Exists(pathD) == false) //目录是否存在,不存在则没有此目录
             {
                 Directory.CreateDirectory(pathD);
-            } 
-            System.IO.StreamWriter f2 = new System.IO.StreamWriter(Path, true, System.Text.Encoding.UTF8);
-            f2.WriteLine(Strings);
-            f2.Close();
+            }
+            System.IO.StreamWriter f2 = new System.IO.StreamWriter(path, true, System.Text.Encoding.UTF8);
+            f2.WriteLine(Strings); 
             f2.Dispose();
+        }
 
+        /// <summary>
+        /// 写文件 | 多媒体
+        /// </summary>
+        /// <param name="path">文件相对路径</param>
+        /// <param name="fileStream">文件二进制流</param>
+        /// <returns>成功true 失败false</returns>
+        public static bool WriteFile(string path, byte[] fileStream)
+        {
+            path = _RootPath + path;
+            string pathD = path.Substring(0, path.LastIndexOf("\\"));
+            if (Directory.Exists(pathD) == false) //目录是否存在,不存在则没有此目录
+            {
+                Directory.CreateDirectory(pathD);
+            }
 
+            FileStream fs = null;
+            try
+            {
+                fs = new FileStream(path, FileMode.OpenOrCreate);
+                fs.Write(fileStream, 0, fileStream.Length);
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                if (fs != null)
+                {
+                    fs.Dispose(); 
+                }
+            }
+            return true;
         }
         #endregion
 
-        #region 读文件
-        /****************************************
-         * 函数名称：ReadFile
-         * 功能说明：读取文本内容
-         * 参    数：Path:文件路径
-         * 调用示列：
-         *           string Path = Server.MapPath("Default2.aspx");       
-         *           string s = DotNet.Utilities.FileOperate.ReadFile(Path);
-        *****************************************/
+        #region 读文件 
         /// <summary>
-        /// 读文件
+        /// 读文件|获取文件的text
         /// </summary>
-        /// <param name="Path">文件路径</param>
+        /// <param name="path">文件相对路径</param>
         /// <returns></returns>
-        public static string ReadFile(string Path)
+        public static string ReadFile(string path)
         {
+            path = _RootPath + path;
             string s = "";
-            if (!System.IO.File.Exists(Path))
+            if (!System.IO.File.Exists(path))
                 s = "不存在相应的目录";
             else
             {
-                StreamReader f2 = new StreamReader(Path, System.Text.Encoding.GetEncoding("gb2312"));
-                s = f2.ReadToEnd();
-                f2.Close();
+                StreamReader f2 = new StreamReader(path, System.Text.Encoding.GetEncoding("gb2312"));
+                s = f2.ReadToEnd(); 
                 f2.Dispose();
             }
-
             return s;
+        }
+        /// <summary>
+        /// 读文件|获取文件的byte[]
+        /// </summary>
+        /// <param name="path">文件相对路径</param>
+        /// <returns></returns>
+        public static byte[] ReadFileBytes(string path)
+        {
+            FileStream fs = null;
+            path = _RootPath + path;
+            byte[] pReadByte = new byte[0];
+            try
+            {
+                fs = new FileStream(path, FileMode.Open, FileAccess.Read);
+                BinaryReader r = new BinaryReader(fs);
+                r.BaseStream.Seek(0, SeekOrigin.Begin);    //将文件指针设置到文件开
+                pReadByte = r.ReadBytes((int)r.BaseStream.Length);
+                return pReadByte;
+            }
+            catch
+            {
+                return pReadByte;
+            }
+            finally
+            {
+                if (fs != null)
+                { 
+                    fs.Dispose();
+                }
+            }
         }
         #endregion
 

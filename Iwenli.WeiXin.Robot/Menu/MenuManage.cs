@@ -15,7 +15,7 @@ namespace Iwenli.WeiXin.Robot.Menu
         /// <summary>
         /// 菜单文件路径
         /// </summary>
-        private static readonly string Menu_Data_Path = System.AppDomain.CurrentDomain.BaseDirectory + "Data\\menu.json"; 
+        private static readonly string Menu_Data_Path = "Data\\menu.json"; 
         private static HttpClient client = new HttpClient();
 
         /// <summary>
@@ -55,6 +55,7 @@ namespace Iwenli.WeiXin.Robot.Menu
         {
             return FileHelper.ReadFile(Menu_Data_Path);
         }
+
 
         public static void TestWrite(string data) {
             FileHelper.WriteFile(Menu_Data_Path, data);
