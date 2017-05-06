@@ -1,4 +1,4 @@
-﻿{
+﻿ {
   "button": [
     {
       "name": "听歌", 
@@ -11,7 +11,7 @@
         {
           "type": "view",
           "name": "一声佛号一声心",
-          "url": " http://music.163.com/m/song?id=5266890"
+          "url": "http://music.163.com/m/song?id=5266890"
         },
         {
           "type": "view",
@@ -29,7 +29,6 @@
           "url": "http://h.xiami.com/#!/search"
         }
       ]
-
     },
     {
       "name": "娱乐",
@@ -43,6 +42,11 @@
           "type": "view",
           "name": "五杀电影院",
           "url": "http://www.707d.cn/"
+        },
+        {
+          "type": "view",
+          "name": "免VIP观看",
+          "url": "http://iwenli.org/web/VIPVideo.html"
         }
       ]
     },

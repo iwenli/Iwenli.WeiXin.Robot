@@ -2,7 +2,6 @@ E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\bin\
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\bin\Debug\Iwenli.WeiXin.Robot.pdb
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\obj\Debug\Iwenli.WeiXin.Robot.dll
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\obj\Debug\Iwenli.WeiXin.Robot.pdb
-E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\obj\Debug\Iwenli.WeiXin.Robot.csprojResolveAssemblyReference.cache
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\bin\Debug\Newtonsoft.Json.dll
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\bin\Debug\Iwenli.WeiXin.Robot.dll.config
 E:\1开发\编码\doNet\0.myself\wx\Iwenli.WeiXin.Robot\Iwenli.WeiXin.Robot\bin\Debug\FSLib.Extension.dll

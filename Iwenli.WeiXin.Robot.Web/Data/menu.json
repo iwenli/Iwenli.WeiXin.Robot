@@ -42,6 +42,11 @@
           "type": "view",
           "name": "五杀电影院",
           "url": "http://www.707d.cn/"
+        },
+        {
+          "type": "view",
+          "name": "免VIP观看",
+          "url": "http://iwenli.org/web/VIPVideo.html"
         }
       ]
     },

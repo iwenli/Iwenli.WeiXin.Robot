@@ -19,16 +19,16 @@
       <publishTime>09/19/2016 01:18:06</publishTime>
     </File>
     <File Include="bin/Iwenli.WeiXin.Robot.dll">
-      <publishTime>02/08/2017 12:34:28</publishTime>
+      <publishTime>03/15/2017 17:48:13</publishTime>
     </File>
     <File Include="bin/Iwenli.WeiXin.Robot.Web.dll">
-      <publishTime>02/08/2017 12:34:28</publishTime>
+      <publishTime>05/07/2017 15:03:35</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/13/2016 23:06:14</publishTime>
     </File>
     <File Include="Data/menu.json">
-      <publishTime>02/07/2017 09:18:42</publishTime>
+      <publishTime>02/14/2017 17:32:26</publishTime>
     </File>
     <File Include="Log/2017/2017-1-22.txt">
       <publishTime>01/22/2017 19:30:19</publishTime>
@@ -48,14 +48,20 @@
     <File Include="packages.config">
       <publishTime>01/23/2017 09:02:15</publishTime>
     </File>
+    <File Include="temp/ls.mp3">
+      <publishTime>02/09/2017 08:09:34</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>02/07/2017 11:11:07</publishTime>
+      <publishTime>05/07/2017 14:40:30</publishTime>
     </File>
     <File Include="web/css/base.css">
       <publishTime>01/20/2017 15:12:53</publishTime>
     </File>
     <File Include="web/index.html">
       <publishTime>01/20/2017 15:13:57</publishTime>
+    </File>
+    <File Include="web/VIPVideo.html">
+      <publishTime>05/06/2017 22:04:40</publishTime>
     </File>
   </ItemGroup>
 </Project>
