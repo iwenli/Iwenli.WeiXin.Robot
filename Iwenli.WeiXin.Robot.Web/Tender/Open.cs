@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,31 +34,50 @@ namespace Iwenli.WeiXin.Robot.Web
 
             //在此处写入您的处理程序实现。
             string data = context.Request["data"];
-            TenderBLl tender = new TenderBLl();
-            TenderModel m1 = new TenderModel()
+            if (string.IsNullOrEmpty(data))
             {
-                Company = "北京中睿昊天信息科技有限公司",
-                Price = 24156043.5M,
-                Scroe = 0
-            };
-            TenderModel m2 = new TenderModel()
+                context.Response.Write(GetReturnJson(1, "参数data不能为空"));
+                return;
+            }
+            var list = JsonConvert.DeserializeObject<List<TenderModel>>(data);
+            if (list.Count < 3)
             {
-                Company = "青岛鼎信通讯股份有限公司",
-                Price = 22850974.9M,
-                Scroe = 0
-            };
-            TenderModel m3 = new TenderModel()
+                context.Response.Write(GetReturnJson(2, "计算公司个数不能少于3个"));
+                return;
+            }
+            else
             {
-                Company = "瑞斯康微电子(深圳)有限公司",
-                Price = 23241874.74M,
-                Scroe = 0
-            };
-            tender.Add(m1);
-            tender.Add(m2);
-            tender.Add(m3);
-            
-            tender.CalcTender();
-            context.Response.Write(GetReturnJson(0, "ok", JsonConvert.SerializeObject(tender.Tenders)));
+                TenderBLl tender = new TenderBLl();
+                tender.AddRange(list);
+                tender.CalcTender();
+                context.Response.Write(GetReturnJson(0, "ok", JsonConvert.SerializeObject(tender.Tenders.OrderByDescending(m => m.Scroe))));
+            }
+
+            //TenderModel m1 = new TenderModel()
+            //{
+            //    Id = 0,
+            //    Company = "北京中睿昊天信息科技有限公司",
+            //    Price = 24156043.5M,
+            //    Scroe = 0
+            //};
+            //TenderModel m2 = new TenderModel()
+            //{
+            //    Id = 1,
+            //    Company = "青岛鼎信通讯股份有限公司",
+            //    Price = 22850974.9M,
+            //    Scroe = 0
+            //};
+            //TenderModel m3 = new TenderModel()
+            //{
+            //    Id = 2,
+            //    Company = "瑞斯康微电子(深圳)有限公司",
+            //    Price = 23241874.74M,
+            //    Scroe = 0
+            //};
+            //tender.Add(m1);
+            //tender.Add(m2);
+            //tender.Add(m3);
+
             //http://www.docin.com/p-833388640.html&model=2905
             //http://localhost:60640/api/open.axd?data=1050.7068,1039.7055,1030.6296,1015.5200,730.5012,717.2000,657.7848,376.3729
             //if (string.IsNullOrEmpty(data))
@@ -390,6 +410,14 @@ namespace Iwenli.WeiXin.Robot.Web
             m_tenders.Add(tender);
         }
         /// <summary>
+        /// 添加一组投标对象
+        /// </summary>
+        /// <param name="tender"></param>
+        public void AddRange(IEnumerable<TenderModel> tenders)
+        {
+            m_tenders.AddRange(tenders);
+        }
+        /// <summary>
         /// 计算评标价
         /// </summary>
         /// <param name="data"></param>
@@ -511,6 +539,10 @@ namespace Iwenli.WeiXin.Robot.Web
 
     public class TenderModel
     {
+        /// <summary>
+        /// 计算前编号
+        /// </summary>
+        public int Id { set; get; }
         /// <summary>
         /// 公司
         /// </summary>
